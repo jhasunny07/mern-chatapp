@@ -1,2 +1,15 @@
-node-modules
+# Node modules (ignore everywhere)
+node_modules/
+
+# Build outputs
+frontend/dist
+backend/dist
+
+# Environment files
 .env
+
+# Logs
+*.log
+
+# Vite cache
+.vite/
